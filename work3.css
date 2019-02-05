@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+.initials {
+  position: absolute;
+  z-index: 10;
+  top:12%;
+  margin-left: 5%;
+  display: flex;
+  line-height: 50px;
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing:0px;
+  color: #505050;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.initials:hover {
+  -webkit-text-stroke: 1px #42A9FF;
+  color: white;
+}
+
+
+
+#menu {
+    width: 550px;
+    height: 35px;
+    font-size: 20px;
+    /*font-family: 'Nanum Gothic', sans-serif;*/
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    margin-left: 60%;
+    margin-top: 8%;
+    word-spacing: 50px;
+}
+
+    #menu ul {
+      height: auto;
+      padding: 8px 0px;
+      margin: 0px;
+    }
+
+    #menu li {
+    display: inline;
+    padding: 10px;
+    }
+
+    #menu a {
+    text-decoration: none;
+    color: #505050;
+    padding: 8px 8px 8px 8px;
+}
+
+    #menu a:hover {
+    color: #FF8E70;
+    background-color: #FFF;
+}
+
+
+.head{
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+
+body{
+
+    overflow-x: hidden;
+}
+.vrimage1intro{
+  font-size: 45px;
+  /*color: #546A76;*/
+  color: #505050;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: bold;
+  float: left;
+  position: absolute;
+  margin-left: 11.5%;
+  margin-top: 13%;
+    overflow:hidden;
+
+}
+
+
+#vrleftrec{
+  height: 5px;
+  width: 50px;
+  margin-left: 11.8%;
+  margin-top: 10%;
+  background-color: #42bff4;
+  float: left;
+  position:absolute;
+    overflow:hidden;
+}
+#vrrightrec{
+  height: 5px;
+  width: 300px;
+  margin-left:17%;
+  margin-top: 10%;
+  background-color:#505050;
+  float: left;
+  position:absolute;
+    overflow:hidden;
+}
+
+.vrimage1 {
+  margin-top:  25%;
+  margin-left: 60%;
+  position: absolute;
+    overflow:hidden;
+
+}
+
+
+
+.vrdate {
+
+  color: #d6d6d6;
+  float: left;
+  position: absolute;
+  margin-left: 12%;
+  margin-top: 23%;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+    overflow:hidden;
+}
+
+.vrparagraph {
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  margin-left: 12%;
+  margin-top: 26%;
+  color: #808080;
+  line-height: 30px;
+  overflow: hidden;
+    overflow:hidden;
+
+}
+
+.quote1{
+  font-style: italic;
+  background: none;
+  color: #808080;
+    overflow:hidden;
+}
+
+.quote0{
+  font-weight: bold;
+  background:none;
+  font-size: 20px;
+  color: #808080;
+    overflow:hidden;
+}
+
+.quote05{
+  font-weight: bold;
+  background:none;
+  font-size: 15px;
+  color: #808080;
+    overflow:hidden;
+}
+
+.vid{
+  margin-left: 35%;
+  margin-top: 5%;
+  float: left;
+  position: absolute;
+  overflow:hidden;
+
+}
+.vidpara{
+  position:absolute;
+  float:left;
+  margin-top:30%;
+  margin-left:34%;
+  font-size: 12px;
+  font-family: 'Muli', sans-serif;
+  color: #808080;
+  text-align: center;
+  width: 35%;
+  margin: 10 auto;
+  overflow:hidden;
+}
+
+.bold{
+  font-weight: 400;
+  background: none;
+  overflow:hidden;
+}
+
+
+.team{
+  position:absolute;
+  color: #808080;
+  text-align: left;
+  font-size:13px;
+
+  background:none;
+  width: 70%;
+  margin: 10 auto;
+  margin-top: 35%;
+  margin-left:12%;
+  font-family: 'Muli', sans-serif;
+
+}
+
+
+.bold0{
+font-weight: bold;
+font-size: 20px;
+background:none;
+color: #42bff4;
+}
+
+
+
+.bold1{
+  font-weight:600;
+  font-size:13px;
+  background:none;
+
+
+}
+
+.goals{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 35%;
+  background:none;
+  color: #42bff4;
+  margin-top:32%;
+  position:absolute;
+  font-family: 'Muli', sans-serif;
+  width: 70%;
+  margin: 10 auto;
+}
+
+.goalspara{
+  position:absolute;
+  margin-top:36%;
+  color: #808080;
+  font-size:14px;
+  font-family: 'Muli', sans-serif;
+
+  background:none;
+  margin-left:35%;
+  width: 30%;
+  margin: 10 auto;
+}
+
+
+.progress{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 12%;
+  background:none;
+  color: #42bff4;
+  margin-top: 65%;
+  position:absolute;
+  font-family: 'Muli', sans-serif;
+  width: 70%;
+  margin: 10 auto;
+}
+
+.progresspara{
+  position:absolute;
+  color: #808080;
+  text-align: left;
+  font-size:13px;
+
+  background:none;
+  width: 55%;
+  margin: 10 auto;
+  margin-top: 69%;
+  margin-left:12%;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.ca{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 12%;
+  background:none;
+  color: #42bff4;
+  margin-top: 75%;
+  position:absolute;
+  font-family: 'Muli', sans-serif;
+  width: 70%;
+  margin: 10 auto;
+}
+#mb1{
+  margin-left: 12%;
+  margin-top: 80%;
+  position:absolute;
+
+}
+
+#mb2{
+  margin-left: 40%;
+  margin-top: 80%;
+  position:absolute;
+
+}
+
+#theme{
+  margin-left: 12%;
+  margin-top: 96.5%;
+  position:absolute;
+
+}
+
+#ls{
+  margin-left: 40%;
+  margin-top: 96.5%;
+  position:absolute;
+
+}
+
+
+#colors{
+  margin-left: 12%;
+  margin-top: 113.5%;
+  position:absolute;
+
+}
+
+#glow{
+  margin-left: 40%;
+  margin-top: 113.5%;
+  position:absolute;
+
+}
+
+#plants{
+  margin-left: 12%;
+  margin-top: 130.5%;
+  position:absolute;
+
+}
+
+#const{
+  margin-left: 40%;
+  margin-top: 130.5%;
+  position:absolute;
+
+}
+
+.refl{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 12%;
+  background:none;
+  color: #42bff4;
+  margin-top: 149%;
+  position:absolute;
+  font-family: 'Muli', sans-serif;
+  width: 70%;
+  margin: 10 auto;
+}
+
+.reflpara{
+  position:absolute;
+  color: #808080;
+  text-align: left;
+  font-size:13px;
+
+  background:none;
+  width: 55%;
+  margin: 10 auto;
+  margin-top: 153%;
+  margin-left:12%;
+  font-family: 'Muli', sans-serif;
+
+}
